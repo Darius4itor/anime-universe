@@ -27,16 +27,28 @@ import type { Anime } from './../../models/anime.model';
 })
 export class AnimeListComponent implements OnInit {
   anime!: Anime[];
+  searchValue: string = '';
 
   constructor(private router: Router, private animeService: AnimeService) {}
+
+  get filteredAnime(): Anime[] { return this.anime.filter(x => x.name.toLowerCase().includes(this.searchValue.toLowerCase())); }
 
   async ngOnInit(): Promise<void> {
     const response = await this.animeService.getAnime();
     this.anime = response ? response : [];
+    this.sortByDate();
   }
 
   onAnimeClick(anime: Anime): void {
     const link = ['/anime', anime.id];
     this.router.navigate(link);
+  }
+
+  sortByDate(): void {
+    this.anime = this.anime.sort((x, y) => y.publishYear - x.publishYear);
+  }
+
+  sortByRating(): void {
+    this.anime = this.anime.sort((x, y) => y.rating - x.rating);
   }
 }

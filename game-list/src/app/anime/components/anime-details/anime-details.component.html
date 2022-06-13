@@ -1,9 +1,24 @@
-<div *ngIf="anime" class="panel panel-default">
-	<div class="panel-heading">Anime</div>
-	<div class="panel-body">
-		<ul>
-      <li>Id: {{anime.id}}</li>
-      <li>Name: {{anime.name}}</li>
-		</ul>
-	</div>
+<div *ngIf="anime" class="container m-3">
+  <div class="row anime-img-container justify-content-md-center">
+    <img class="col-md-4 anime-img" [src]="anime.imageUrl" alt="anime image">
+
+    <div class="col-md-6">
+      <div class="fs-3 fw-bold">{{anime.name}}</div>
+      <div class="row mt-2">
+        <div class="col-md-2 fs-6 fw-bold">{{anime.publishYear}}</div>
+        <div class="col-md-3 fs-6 fw-bold">{{anime.episodesAmount}} episodes</div>
+        <div class="col-md-2 fs-6 fw-bold">{{anime.duration}} min</div>
+        <div class="col-md-2 fs-6 fw-bold">
+          <span class="align-top">
+            {{anime.rating}}
+          </span>
+          <mat-icon class="star-icon" aria-hidden="false" aria-label="Star icon">star</mat-icon> </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-10 fs-6">
+          {{anime.description}}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

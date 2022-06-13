@@ -1,3 +1,19 @@
-<div class="container">
-  <router-outlet #routerOutlet="outlet"></router-outlet>
+<div class="background-img">
+  <div class="container d-flex flex-column min-vh-100 anime-list-container">
+    <header class="bg-dark row p-3">
+      <div class="col-md-4">
+        <a routerLink="home">
+          <span class="text-warning fs-5 fw-bold">Anime Universe</span>
+        </a>
+      </div>
+    </header>
+    <router-outlet #routerOutlet="outlet"></router-outlet>
+    <footer class="bg-dark row p-3 mt-auto">
+      <div class="col-md-4">
+        <a routerLink="home">
+          <span class="text-warning fs-5 fw-bold">Anime Universe</span>
+        </a>
+      </div>
+    </footer>
+  </div>
 </div>

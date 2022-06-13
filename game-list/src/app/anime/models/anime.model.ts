@@ -7,5 +7,6 @@ export class Anime {
     public publishYear: number = 0,
     public duration: number = 0,
     public episodesAmount: number = 0,
+    public rating: number = 0,
   ) { }
 }

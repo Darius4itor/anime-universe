@@ -7,7 +7,8 @@
       "description": "Based on the famous Japanese manga written by Tsugumi Ohba and Takeshi Obata, Death Note follows a high school student who comes across a supernatural notebook, realizing it holds within it a great power; if the owner inscribes someone's name into it while picturing their face, he or she will die.",
       "publishYear": 2006,
       "duration": 22,
-      "episodesAmount": 37
+      "episodesAmount": 37,
+      "rating": 9.8
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "The story revolves around a first-year middle school student, Teiichi Niiya who had just enrolled at Seikyou Private Academy. When he gets lost in one of the school's old buildings, he meets a girl named Yuuko Kanoe who reveals herself as a ghost with no memories.",
       "publishYear": 2013,
       "duration": 22,
-      "episodesAmount": 12
+      "episodesAmount": 12,
+      "rating": 9.1
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "Premise. The series focuses on Monkey D. Luffy, a young man made of rubber, whom, inspired by his childhood idol, the powerful pirate Red-Haired Shanks, sets off on a journey from the East Blue Sea to find the mythical treasure, the One Piece, and proclaim himself the King of the Pirates.",
       "publishYear": 1999,
       "duration": 22,
-      "episodesAmount": 1100
+      "episodesAmount": 1100,
+      "rating": 8.7
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "Sora and Shiro are two hikikomori step-siblings who are known in the online gaming world as Blank, an undefeated group of gamers. One day, they are challenged to a game of chess by Tet, a god from another reality. The two are victorious and are offered to live in a world that centers around games. They accept, believing it to be a joke, and are summoned to a reality known as Disboard.[Jp. 1] There, a spell known as the Ten Pledges prevents the citizens of Disboard from inflicting harm on one another, forcing them to resolve their differences by gambling with games whose rules and rewards are magically enforced. In-game, rule enforcement only occurs when the method of cheating is acknowledged and outed by the opponent, allowing players to cheat through discreet methods. Sora and Shiro traverse to Elkia,[Jp. 2] the nation inhabited by humans, and befriend the duchess Stephanie Dola. Learning about Elkia's decline, the two participate in a tournament to determine the next ruler; after winning the crown, they earn the right to challenge the Disboard's other species as humanity's representative.LN 1.4 Their next goal is to conquer all sixteen species in order to challenge Tet to a game; as of the sixth volume, five of the sixteen are under their control.",
       "publishYear": 2012,
       "duration": 22,
-      "episodesAmount": 12
+      "episodesAmount": 12,
+      "rating": 9.4
     },
     {
       "id": 5,
@@ -43,7 +47,38 @@
       "description": "The story follows a spy who has to 'build a family' to execute a mission, not realizing that the girl he adopts as his daughter is a telepath, and the woman he agrees to be in a marriage with is a skilled assassin.",
       "publishYear": 2022,
       "duration": 22,
-      "episodesAmount": 25
+      "episodesAmount": 25,
+      "rating": 9.2
+    },
+    {
+      "id": 6,
+      "name": "Boruto: Naruto Next Generations",
+      "imageUrl": "https://anistar.org/uploads/posters/6261/original.jpg",
+      "description": "Son of Naruto Uzumaki, Boruto, follows his father's footsteps along with his friends to become great ninja. Throughout all their adventures, Boruto is determined to make his mark in the ninja world and live outside of his father's shadow.",
+      "publishYear": 2017,
+      "duration": 25,
+      "episodesAmount": 253,
+      "rating": 7.5
+    },
+    {
+      "id": 7,
+      "name": "Absolute Duo",
+      "imageUrl": "https://anistar.org/uploads/posters/4966/original.jpg",
+      "description": "Absolute Duo is about your average male protagonist who gains a special power and wants to seek. Tooru Kokonoe is a teenager who has the ability to materialize “Blazes” out of his soul. But he has no ordinary Blaze his blaze is an irregular, while other people generate Weapons Tooru can generate a shield.",
+      "publishYear": 2015,
+      "duration": 25,
+      "episodesAmount": 12,
+      "rating": 9.1
+    },
+    {
+      "id": 8,
+      "name": "Problem Children are Coming from Another World, aren't they?",
+      "imageUrl": "https://anistar.org/uploads/posters/3643/original.jpg",
+      "description": "Three teenagers receive mysterious letters that transport them to another world. This world is known as, 'Little Garden'. Here, the inhabitants use their beyond human gifts to compete in games that range from simple tasks, to duels; sometimes even betting the very gifts that brought them there.",
+      "publishYear": 2013,
+      "duration": 25,
+      "episodesAmount": 10,
+      "rating": 9.3
     }
   ]
 }

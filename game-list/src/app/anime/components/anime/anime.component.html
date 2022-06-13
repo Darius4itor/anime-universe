@@ -1,9 +1,13 @@
-<div class="panel panel-default" (click)="onAnimeClick()">
-	<div class="panel-heading">Anime</div>
-	<div class="panel-body">
-		<ul>
-      <li>Id: {{anime.id}}</li>
-      <li>Name: {{anime.name}}</li>
-		</ul>
-	</div>
+<div class="container mb-4" (click)="onAnimeClick()">
+  <div class="row anime-img-container">
+    <img class="col anime-img" [src]="anime.imageUrl" alt="anime image">
+  </div>
+  <div class="row fs-6 mt-2">
+    <span class="col-md-8">
+      {{anime.name}}
+    </span>
+    <span class="col-md-4 text-end text-secondary">
+      {{anime.publishYear}}
+    </span>
+  </div>
 </div>
